@@ -1,26 +1,106 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body {
+  background-color: #107896;
+  color: #FFFFFF;
+  font-size: 16px;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: #1496BB;
   float: left;
   position: fixed;
   width: 100%;
 }
 
+h1 {
+  font-size: 2.5em;
+  line-height: 1.5;
+  font-weight:700;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+   text-align:center;
+}
+
+h3 {
+  font-size: 1.29em;
+  line-height: 1.2;
+  font-weight:400;
+}
+
+p {
+  font-size: 100%; /* 16px */
+  line-height: 1.4;
+}
+
+figcaption {
+  font size: 0.83em;
+  line height: 1.2;
+   text-align:center;
+}
+
+.author {
+  font size: 0.83em;
+  line height: 1.2;
+  font-style: italic
+}
+
 .logo {
   margin: 20px;
   width: 100px;
-}
-
-.large-pic {
-  width: 100%;
+  background: url(images/bloc-logo.png) no-repeat top center;
 }
 
 .medium-pic {
-  width: 70%;
+  width: 90%;
+  background:#FFFFFF url(images/instagram-pic.jpg) no-repeat top center;
 }
 
 .left, .right {
@@ -50,3 +130,12 @@ article {
   margin: 0 auto;
   width: 50%;
 }
+
+a{
+  text-decoration: none;
+}
+
+a:link { color:#FFFFFF; } /* unvisited */
+a:visited { color:#DA621E; } /* visited */
+a:hover { color:#C02F1D; } /* mouse over */
+a:active { color:#AD2A1A; } /* selected */
