@@ -1,2 +1,2 @@
 # css-exercise-two
-Assignment for Fundamentals
+The second assignment to practice fundamental CSS. 
